@@ -145,7 +145,7 @@ public class Agenda {
 
             System.out.print("Informe o novo sobrenome do contato: ");
             String novoSobreNome = scanner.nextLine();
-
+            
 
             List<Telefone> telefones = new ArrayList<>();
             for (int i = 0; i < 1; i++) {
@@ -234,6 +234,9 @@ public class Agenda {
         }
     }
 
-    
+    public static void main(String[] args) {
+        Agenda agenda = new Agenda();
+        agenda.exibirMenu();
+    }
 }
 
